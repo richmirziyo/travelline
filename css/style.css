@@ -16,8 +16,9 @@ html {
   margin: 0 auto;
 }
 
-/* .header {
-} */
+.header {
+  background-color: #f0c53e;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -40,6 +41,11 @@ html {
     a {
       text-decoration: none;
       color: #252641;
+
+      &:hover {
+        transition: 0.3s;
+        color: #ffffff;
+      }
     }
   }
 }
@@ -50,7 +56,11 @@ html {
   margin-top: 63px;
   border: 2px solid #b25a59;
   background-color: #b25a59;
-  
+
+  &:hover {
+    cursor: pointer;
+    opacity: 60%;
+  }
 
   a {
     width: 203px;
@@ -63,4 +73,17 @@ html {
     color: #ffffff;
     text-decoration: none;
   }
+}
+
+.hero {
+}
+.container {
+}
+.hero-life {
+}
+.hero-df {
+}
+.hero__btn {
+}
+.btn {
 }
