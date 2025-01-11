@@ -79,7 +79,7 @@ html {
   max-width: 2020px;
   padding-left: 50px;
   padding-right: 50px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .header {
