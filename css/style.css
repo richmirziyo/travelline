@@ -144,7 +144,7 @@ html {
   display: flex;
 }
 
-.hero__title{
+.hero__title {
   width: 704px;
   height: 404px;
   gap: 106px;
@@ -181,7 +181,7 @@ html {
   }
 }
 
-.hero__travel{
+.hero__travel {
   width: 910px;
   height: 745px;
 }
@@ -191,4 +191,45 @@ html {
 .hero__btn {
 }
 .btn {
+}
+
+/* MAIN */
+
+.check {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.check__title {
+  h4 {
+    width: 612px;
+    height: 65px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 64.8px;
+    color: #2f327d;
+
+    span {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 64.8px;
+      color: #b25a59;
+    }
+
+    p {
+      width: 837px;
+      height: 172px;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 43.2px;
+      color: #2c2d32;
+    }
+  }
+}
+.check__images {
 }
